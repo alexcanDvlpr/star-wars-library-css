@@ -1,0 +1,68 @@
+.sw-card {
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    background: black;
+    margin: 20px 15px;
+    position: relative;
+}
+
+.sw-card a {
+    text-decoration: none;
+}
+
+.sw-card .img-content {
+    height: 90%;
+}
+
+.sw-card.animation .img-content {
+    height: 100%;
+}
+
+.sw-card.animation .img-content img {
+    border-radius: 15px;
+}
+
+.sw-card .character-name {
+    height: 10%;
+    padding: 0px 0px 5px 15px;
+}
+
+.sw-card .character-name-animation {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px 0px;
+    opacity: 0;
+}
+
+.sw-card .character-name-animation span {
+    color: white;
+    font-size: 24px;
+}
+
+.sw-card:hover .character-name-animation {
+    animation-name: fadeTop;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+.sw-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+
+
+@keyframes fadeTop {
+    to {
+        opacity: .9;
+    }
+}

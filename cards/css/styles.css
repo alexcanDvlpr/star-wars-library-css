@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: darkgrey;
+}
+
+hr {
+    background-color: darkgrey;
+}
+
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background: #131313;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main-container aside {
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid darkgray;
+}
+
+.main-container .content {
+    width: 85%;
+    height: auto;
+    padding: 25px;
+}
+
+.content .title {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content .cards-content {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

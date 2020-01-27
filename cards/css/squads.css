@@ -1,0 +1,21 @@
+.imperio,
+.primera-orden {
+    background: url('../../img/logos/imperio.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.rebelion,
+.resistencia {
+    background: url('../../img/logos/rebelion.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.republica {
+    background: url('../../img/logos/republica.png') no-repeat center center;
+    background-size: cover;
+}
+
+.separatista {
+    background: url('../../img/logos/separatistas.jpg') no-repeat center center;
+    background-size: cover;
+}
